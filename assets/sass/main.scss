@@ -259,7 +259,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: _palette(accent1) !important;
+    color: white;
     border-bottom-color: transparent;
   }
 }
@@ -371,6 +371,21 @@ pre {
     line-height: 1.75em;
     padding: 1em 1.5em;
     overflow-x: auto;
+  }
+}
+
+.download {
+  text-decoration: none;
+  background: #e44c65;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #e44c65;
+  font-size: 21px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+  &:hover {
+    background: white;
   }
 }
 
